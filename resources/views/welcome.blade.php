@@ -1,99 +1,49 @@
-<!doctype html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<!DOCTYPE html>
+<html lang="ru">
 
-        <title>Laravel</title>
+<head>
 
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+	<meta charset="utf-8">
 
-        <!-- Styles -->
-        <style>
-            html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Nunito', sans-serif;
-                font-weight: 200;
-                height: 100vh;
-                margin: 0;
-            }
+	<title>Title</title>
+	<meta name="description" content="">
 
-            .full-height {
-                height: 100vh;
-            }
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
 
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#000">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#000">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
 
-            .position-ref {
-                position: relative;
-            }
+	<link rel="stylesheet" href="css/app.css">
 
-            .top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
-            }
+</head>
 
-            .content {
-                text-align: center;
-            }
+<body>
 
-            .title {
-                font-size: 84px;
-            }
+	<div class="container">
 
-            .links > a {
-                color: #636b6f;
-                padding: 0 25px;
-                font-size: 13px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
+		<div class="row">
 
-            .m-b-md {
-                margin-bottom: 30px;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
+			<div class="col-sm-8 col-sm-offset-2">
+				
+				<img class="img-responsive" src="img/preview.jpg" alt="Start HTML5 Template">
+				<p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Пустился снова, силуэт сих снова не коварный за языкового текста до рекламных, агенство возвращайся, буквенных жизни это, первую переулка правилами?</p>
+				<p>Наш, приставка страна единственное большой, власти, злых, взобравшись семь рот он алфавит осталось вершину курсивных сих всемогущая буквенных предупредила залетают необходимыми эта но вдали имеет ты? Предупреждал повстречался, но которое!</p>
+				<p>Злых, знаках свою. Выйти по всей рукописи запятой дороге маленький дорогу, все вопроса переулка необходимыми точках повстречался текстов наш приставка одна над страна последний, за имеет ты всемогущая предложения рот скатился.</p>
 
-                        @if (Route::has('register'))
-                            <a href="{{ route('register') }}">Register</a>
-                        @endif
-                    @endauth
-                </div>
-            @endif
+			</div>
+			
+		</div>
 
-            <div class="content">
-                <div class="title m-b-md">
-                    Laravel
-                </div>
+	</div>
 
-                <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
-                </div>
-            </div>
-        </div>
-    </body>
+	<script src="js/scripts.min.js"></script>
+
+</body>
 </html>
